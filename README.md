@@ -6,7 +6,6 @@
 
 ### To do
 
-* Instalar sass
 * Instalar react-icons
 * Instalar react-router-dom
 
@@ -18,4 +17,9 @@ Crear React-App
 
 ```bash
 npx create-react-app frontend
+```
+Instalar Sass
+
+```bash
+npm i sass
 ```
