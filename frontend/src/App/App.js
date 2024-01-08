@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.scss';
+import { Layout } from './Layout/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>MavLogistic</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <HashRouter>
+        <Layout />
+        <Routes>
+          <Route path='/' element={<h1>Home</h1>}></Route>
+          <Route path='/about' element={<h1>About</h1>}></Route>
+          <Route path='/blog' element={<h1>Blog</h1>}></Route>
+          <Route path='/*' element={<h1>Error 404</h1>}></Route>
+        </Routes>
+      </HashRouter>
+    </React.Fragment>
   );
 }
 

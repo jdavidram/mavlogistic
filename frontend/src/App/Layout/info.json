@@ -1,0 +1,47 @@
+{
+    "forms": {
+        "title": "FORMS",
+        "links": [
+            {
+                "to": "/",
+                "text": "CtzComp"
+            }, {
+                "to": "/about",
+                "text": "CtzVta"
+            }, {
+                "to": "/blog",
+                "text": "SiDo"
+            }, {
+                "to": "/about",
+                "text": "Follow"
+            }
+        ]
+    },
+    "tables": {
+        "title": "TABLES",
+        "links": [
+            {
+                "to": "/tables",
+                "text": "Etapas"
+            }, {
+                "to": "/",
+                "text": "Estados"
+            }, {
+                "to": "/about",
+                "text": "Rutas"
+            }, {
+                "to": "/blog",
+                "text": "Servicios"
+            }, {
+                "to": "/",
+                "text": "Subservicios"
+            }, {
+                "to": "/blog",
+                "text": "Terceros"
+            }, {
+                "to": "/about",
+                "text": "Aeroptos"
+            }
+        ]
+    }
+}

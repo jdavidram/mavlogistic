@@ -6,7 +6,6 @@
 
 ### To do
 
-* Crear Layout
 * Crear Rutas para navegar entre tablas y formularios
 * Crear Tablas
 * Crear Formulario CtzComp
