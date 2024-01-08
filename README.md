@@ -6,7 +6,10 @@
 
 ### To do
 
-* Instalar react-router-dom
+* Crear Layout
+* Crear Rutas para navegar entre tablas y formularios
+* Crear Tablas
+* Crear Formulario CtzComp
 
 <hr />
 
@@ -31,3 +34,9 @@ npm i react-icons --save
 ```
 
 Una vez instalado, se puede proceder a buscar los iconos que se necesiten en el siguiente link: [React-icons](https://react-icons.github.io/react-icons/)
+
+Instalar React-router-dom
+
+```bash
+npm i react-router-dom --save
+```
