@@ -1,7 +1,7 @@
 import { FaPowerOff, FaDatabase, FaSun, FaMoon } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 import { ReactComponent as MavLogo } from './logo.svg';
-import info from './info.json';
+import routes from './routes.json';
 import './layout.scss';
 
 function Header() {
@@ -31,7 +31,7 @@ function SpanBox({ title, links }) {
 }
 
 function Menu() {
-    const spanboxes = [info.forms, info.tables];
+    const spanboxes = [routes.forms, routes.tables];
     return (
         <nav>
             {spanboxes.map((i) => (

@@ -1,0 +1,35 @@
+$black: #161A30;
+$white: #31304D;
+$main: #F0ECE5;
+$second: #B6BBC4;
+
+main#tables {
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    background-color: $white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+    h1 {
+        padding: 10px 20px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-transform: uppercase;
+        color: $second;
+    }
+    table {
+        margin: 10px;
+        border-collapse: collapse;
+        thead tr th {
+            padding: 10px;
+            border: 1px solid $black;
+            background-color: $black;
+            color: $main;
+        }
+        tbody tr td {
+            padding: 10px;
+            border: 1px solid $black;
+            text-align: center;
+        }
+    }
+}

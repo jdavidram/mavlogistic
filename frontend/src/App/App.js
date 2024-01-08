@@ -2,6 +2,11 @@ import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.scss';
 import { Layout } from './Layout/Layout';
+import { CtzComp } from './CtzComp/CtzComp';
+import { CtzVta } from './CtzVta/CtzVta';
+import { SiDo } from './SiDo/SiDo';
+import { Follow } from './Follow/Follow';
+import { Tables } from './Tables/Tables';
 
 function App() {
   return (
@@ -9,9 +14,11 @@ function App() {
       <HashRouter>
         <Layout />
         <Routes>
-          <Route path='/' element={<h1>Home</h1>}></Route>
-          <Route path='/about' element={<h1>About</h1>}></Route>
-          <Route path='/blog' element={<h1>Blog</h1>}></Route>
+          <Route path='/ctzcomp' element={<CtzComp />}></Route>
+          <Route path='/ctzvta' element={<CtzVta />}></Route>
+          <Route path='/sido' element={<SiDo />}></Route>
+          <Route path='/follow' element={<Follow />}></Route>
+          <Route path='/tables/:table' element={<Tables />}></Route>
           <Route path='/*' element={<h1>Error 404</h1>}></Route>
         </Routes>
       </HashRouter>

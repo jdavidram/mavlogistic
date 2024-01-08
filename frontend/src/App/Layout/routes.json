@@ -3,16 +3,16 @@
         "title": "FORMS",
         "links": [
             {
-                "to": "/",
+                "to": "/ctzcomp",
                 "text": "CtzComp"
             }, {
-                "to": "/about",
+                "to": "/ctzvta",
                 "text": "CtzVta"
             }, {
-                "to": "/blog",
+                "to": "/sido",
                 "text": "SiDo"
             }, {
-                "to": "/about",
+                "to": "/follow",
                 "text": "Follow"
             }
         ]
@@ -21,25 +21,25 @@
         "title": "TABLES",
         "links": [
             {
-                "to": "/tables",
+                "to": "/tables/etapas",
                 "text": "Etapas"
             }, {
-                "to": "/",
+                "to": "/tables/estados",
                 "text": "Estados"
             }, {
-                "to": "/about",
+                "to": "/tables/rutas",
                 "text": "Rutas"
             }, {
-                "to": "/blog",
+                "to": "/tables/servicios",
                 "text": "Servicios"
             }, {
-                "to": "/",
+                "to": "/tables/subservicios",
                 "text": "Subservicios"
             }, {
-                "to": "/blog",
+                "to": "/tables/terceros",
                 "text": "Terceros"
             }, {
-                "to": "/about",
+                "to": "/tables/aeroptos",
                 "text": "Aeroptos"
             }
         ]

@@ -1,18 +1,21 @@
 # MavLogistic
 
-## Todo
-
 <hr />
 
 ### To do
 
-* Crear Rutas para navegar entre tablas y formularios
 * Crear Tablas
 * Crear Formulario CtzComp
 
 <hr />
 
 ## Frontend
+
+Instalar todos los paquetes para iniciar a correr la WebApp
+
+```bash
+npm i
+```
 
 Crear React-App
 
