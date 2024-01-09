@@ -3,6 +3,37 @@ $white: #31304D;
 $main: #F0ECE5;
 $second: #B6BBC4;
 
+div#search {
+    padding: 20px;
+    background-color: $black;
+    border-radius: 20px;
+    position: fixed;
+    border: 2px solid $main;
+    transition-duration: 0.5s;
+    &.hide {
+        top: -100px;
+        right: 0;
+        opacity: 0;
+    }
+    &.show {
+        top: 10px;
+        right: 10px;
+        opacity: 1;
+    }
+    label {
+        margin-right: 20px;
+        color: $main;
+        cursor: pointer;
+    }
+    select {
+        max-width: 200px;
+        outline: none;
+        border: none;
+        background-color: $black;
+        color: $main;
+    }
+}
+
 main#tables {
     grid-column: 2 / 4;
     grid-row: 1 / 4;
@@ -10,6 +41,7 @@ main#tables {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr;
+    overflow: scroll;
     h1 {
         padding: 10px 20px;
         grid-column: 1 / 2;
@@ -25,6 +57,12 @@ main#tables {
             border: 1px solid $black;
             background-color: $black;
             color: $main;
+            &.filter {
+                cursor: pointer;
+            }
+            svg {
+                margin-right: 10px;
+            }
         }
         tbody tr td {
             padding: 10px;

@@ -6,7 +6,7 @@ import { CtzComp } from './CtzComp/CtzComp';
 import { CtzVta } from './CtzVta/CtzVta';
 import { SiDo } from './SiDo/SiDo';
 import { Follow } from './Follow/Follow';
-import { Tables } from './Tables/Tables';
+import { Table } from './Tables/Tables';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path='/ctzvta' element={<CtzVta />}></Route>
           <Route path='/sido' element={<SiDo />}></Route>
           <Route path='/follow' element={<Follow />}></Route>
-          <Route path='/tables/:table' element={<Tables />}></Route>
+          <Route path='/tables/:table' element={<Table />}></Route>
           <Route path='/*' element={<h1>Error 404</h1>}></Route>
         </Routes>
       </HashRouter>

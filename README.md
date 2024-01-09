@@ -4,8 +4,10 @@
 
 ### To do
 
-* Crear Tablas
-* Crear Formulario CtzComp
+* Crear Formulario CtzComp Template
+* Conectar Data
+* Crear Backend
+* Conectar CtzComp al Backend
 
 <hr />
 
@@ -35,7 +37,7 @@ Instalar React-icons
 npm i react-icons --save
 ```
 
-Una vez instalado, se puede proceder a buscar los iconos que se necesiten en el siguiente link: [React-icons](https://react-icons.github.io/react-icons/)
+Una vez instalado, se puede proceder a buscar los iconos que se necesiten en el siguiente link: [React-icons](https://react-icons.github.io/react-icons/icons/fa6/)
 
 Instalar React-router-dom
 
